@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            margin: 2cm;
+            background-color: yellow;
+            width: 50cm;
+        }
+
+        .first {
+            background-color: red;
+            position: static; /* this is the default position */
+            /* position: relative; */ /* feel free to try this to see the difference */
+            /* position: absolute; */ /* feel free to try this to see the difference */ 
+            /* position: fixed;    */ /* feel free to try this to see the difference */ 
+            /* position: sticky;   */ /* feel free to try this to see the difference */ 
+            top: 20px;
+            left: 20px;
+            width: 500px;
+        }
+
+        .others {
+            background-color: blue;
+        }
+
+        div {
+            padding: 1cm;
+            font-family: Calibri;
+            border: 1px solid black;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        parent
+        <div class="first">first</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+    </div>
+
+    <div class="parent">
+        parent
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+        <div class="others">others</div>
+    </div>
+
+    
+</body>
+</html>
